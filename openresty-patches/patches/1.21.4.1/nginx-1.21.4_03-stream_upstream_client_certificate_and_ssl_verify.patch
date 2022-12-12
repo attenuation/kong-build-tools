@@ -19,8 +19,7 @@ index b11c288..bba27f0 100644
 +#if (NGX_STREAM_LUA_KONG)
 +
 +    if (pc->type == SOCK_STREAM && pscf->ssl
-+        && !ngx_stream_lua_kong_get_proxy_ssl_disable(s))
-+    {
++        && !ngx_stream_lua_kong_get_proxy_ssl_disable(s)) {
 +
 +#else
 +
